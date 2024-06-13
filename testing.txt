@@ -1,0 +1,32 @@
+Given an array of length ‘N’, where each element denotes the position of a stall. Now you have ‘N’ stalls and an integer ‘K’ which denotes the number of cows that are aggressive. To prevent the cows from hurting each other, you need to assign the cows to the stalls, such that the minimum distance between any two of them is as large as possible. Return the largest minimum distance.
+ 
+ 1 2 8 4 9 
+ k = 3
+ OP =  3
+
+
+ 1 2 4 8 9 
+ .   . .
+
+
+1 2 4 8 9
+
+1 2 4 = 1 2 = 1  
+1 2 8 = 1 6 = 1
+1 2 9 = 1 7 = 1
+1 4 8 = 3 5 = 3
+1 4 9 = 3 5 = 3
+1 8 9 = 7 1 = 1
+
+2 4 8 = 2 4 = 2
+2 4 9 = 2 5 = 2
+2 8 9 = 7 1 = 1
+4 8 9 = 4 1 = 1
+
+
+
+min 1 max 8
+
+.  
+1 2 4 8 9
+ans = 3

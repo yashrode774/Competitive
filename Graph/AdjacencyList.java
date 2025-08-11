@@ -15,7 +15,7 @@ public class Main {
     //     System.out.print(node + " ");
     //     for (int child: g.get(node)) {
     //         if (!vis[child]) {
-    //             if (dfs(child, node)) return false;
+    //             if (dfs(child, node)) return true;
     //         }
     //         else if (child != parent) return true;
     //     }

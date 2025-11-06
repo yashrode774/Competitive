@@ -1,0 +1,31 @@
+Graph topics to be done: 
+
+
+Single source shortest path - bfs ✅
+
+Connected Components in an Undirected Graph ✅
+Number of Islands (Leetcode 200) ✅
+
+LCA — IMPPPPPPPPP
+
+Cycle
+Detect Cycle in Undirected Graph (using DFS or Union-Find) ✅
+Detect Cycle in Directed Graph (DFS + recursion stack)✅ — use of pathVis
+
+Topological Sort using Kahn’s Algorithm (BFS) ✅
+Course Schedule ✅	
+Course Schedule II ✅
+
+Dijkstra’s Algorithm (with priority queue)
+
+IMP
+Grid as Graph (common in interviews)
+* Number of Islands (Leetcode 200) ✅
+* Rotting Oranges (Leetcode 994) ✅
+* Surrounded Regions (Leetcode 130)✅
+* Walls and Gates (Leetcode 286)✅
+Union Find (Disjoint Set Union - DSU)
+	Minimum Spanning Tree (MST) using kruskal’s
+
+
+For a directed graph, to detect cycle, we need to maintain a pathVis array which will indicate if the child has came in the current pathVis if yes, then there is a cycle.
